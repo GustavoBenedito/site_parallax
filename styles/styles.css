@@ -52,12 +52,12 @@ p{
     font-family:var(--font-action);
     font-size:1.3em;
     border:2px solid black;
-    transform: translate(-5px, -2px);
+    transform: translate(-5px, -5px);
     transition: 0.3s;
 }
 .work button:hover{
 
-    transform: translate(-10px, -5px);
+    transform: translate(-10px, -8px);
 
 }
 .welcome{
@@ -102,7 +102,7 @@ p{
 
 .img-site{
     background-image:url(../img/laranja.jpg);
-    background-position: center 10%;
+    background-position: center 15%;
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;
@@ -115,4 +115,10 @@ p{
     background:black;
     color:#fff;
     height:50px;
+}
+@media(max-width:900px){
+    .img-site{
+        padding-top:200px;
+        padding-bottom:200px;
+    }
 }
