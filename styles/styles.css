@@ -53,12 +53,14 @@ p{
     font-size:1.3em;
     border:2px solid black;
     transform: translate(-5px, -5px);
-    transition: 0.3s;
+    transition: 0.2s;
     cursor:pointer;
     outline:none;
+    box-shadow: 1px 3px 0px rgb(156, 144, 144);
 }
 .work button:hover{
     transform: translate(-10px, -8px);
+    box-shadow:none;
 }
 .welcome{
     height:100vh;
