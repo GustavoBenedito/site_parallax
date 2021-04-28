@@ -63,10 +63,30 @@ p{
     box-shadow:none;
 }
 .welcome{
-    height:100vh;
+    height:73vh;
     align-items: center;
     display:flex;
     justify-content:center;
+}
+.arrow{
+    font-size:2em;
+    font-weight: 100;
+    display:flex;
+    justify-content:center;
+    opacity:0.5;
+    animation:is-bouncing 0.5s ease-in alternate infinite;
+    place-items: center;
+    transition:0.3s;
+    cursor:pointer;
+    outline:none;
+}
+.arrow:hover{
+    opacity:1;
+}
+@keyframes is-bouncing{
+    to{
+        transform:translateY(10px);
+    }
 }
 .text-center{
     text-align: center;
