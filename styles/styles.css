@@ -24,6 +24,10 @@ img{
     width:95%;
     height:300px;
 }
+h1{
+    font-family:Var(--font-primary);
+    font-size:2em;
+}
 p{
     font-family:var(--font-secundary);
 }
@@ -34,19 +38,32 @@ p{
 .work{
     position:absolute;
     right:2%;
-    top:20%;
+    top:25%;
+    background:white;
+    width:100px;
+    display:flex;
+    justify-content:center;
+    border:2px solid black;
+
+}
+
+.work button{
+    padding:0.2em 1.2em 0.2em 1.2em;
+    font-family:var(--font-action);
+    font-size:1.3em;
+    border:2px solid black;
+    transform: translate(-5px, -2px);
+    transition: 0.3s;
+}
+.work button:hover{
+
+    transform: translate(-10px, -5px);
+
 }
 .welcome{
     position:absolute;
     top:50%;
     left:40%;
-}
-.work button{
-    padding:0.2em 1.2em 0.2em 1.2em;
-    font-family:var(--font-action);
-    font-size:1.3em;
-    border:1px solid black;
-    border-radius:0.15em;
 }
 .text-center{
     text-align: center;
